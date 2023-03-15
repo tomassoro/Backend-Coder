@@ -1,13 +1,22 @@
 //Desafio entregable: Clases con ECMAScript y ECMAScript avanzado
-class ProductManager {      
+class ProductManager {
+
+
     constructor(products) {
         this.products = products;
+        this.autoId = 1
     }
 
     addProduct(product) {
         const existingProduct = this.products.find(p => p.code === product.code);
         if (existingProduct) {
             throw new Error(`El producto con el codigo: '${product.code}' ya existe`);
+        }
+        product.id = this.autoId++
+        if(product.id != this.autoId){
+            console.log('Id generado con exito')
+        }else{
+            console.log('El id se repite')
         }
         this.products.push(product);
     }
@@ -51,12 +60,22 @@ const newProduct = {
     code: "P4", // code already exists
     stock: 200,
 };
+const newProduct2 = {
+    title: "New product2",
+    description: "desc product4",
+    price: 16,
+    thumbnail: "sin imagen",
+    code: "P7", // code already exists
+    stock: 200,
+};
 
 try {
     productManager.addProduct(newProduct);
     console.log("Product added successfully");
+    productManager.addProduct(newProduct2)
 } catch (error) {
     console.error(error.message);
 }
 const productsList = productManager.getProducts();
 console.log(productsList)
+
