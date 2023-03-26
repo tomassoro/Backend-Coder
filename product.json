@@ -1,0 +1,146 @@
+[
+  {
+    "id": 1,
+    "title": "oreos",
+    "description": "Galletitas rellenas con crema blanca",
+    "price": 5,
+    "thumbnail": "con foto",
+    "code": "carpincho",
+    "stock": 5
+  },
+  {
+    "id": 3,
+    "title": "macucas",
+    "description": "Galletitas rellenas con crema blanca",
+    "price": 5,
+    "thumbnail": "con foto",
+    "code": "adfg66",
+    "stock": 5
+  },
+  {
+    "id": 4,
+    "title": "oreos",
+    "description": "Galletitas rellenas con crema blanca",
+    "price": 5,
+    "thumbnail": "con foto",
+    "code": "adfg66",
+    "stock": 5
+  },
+  {
+    "id": 5,
+    "title": "macucas",
+    "description": "Galletitas rellenas con crema blanca",
+    "price": 5,
+    "thumbnail": "con foto",
+    "code": "adfg66",
+    "stock": 5
+  },
+  {
+    "id": 6,
+    "title": "oreos",
+    "description": "Galletitas rellenas con crema blanca",
+    "price": 5,
+    "thumbnail": "con foto",
+    "code": "adfg66",
+    "stock": 5
+  },
+  {
+    "id": 7,
+    "title": "macucas",
+    "description": "Galletitas rellenas con crema blanca",
+    "price": 5,
+    "thumbnail": "con foto",
+    "code": "adfg66",
+    "stock": 5
+  },
+  {
+    "id": 8,
+    "title": "oreos",
+    "description": "Galletitas rellenas con crema blanca",
+    "price": 5,
+    "thumbnail": "con foto",
+    "code": "adfg66",
+    "stock": 5
+  },
+  {
+    "id": 9,
+    "title": "macucas",
+    "description": "Galletitas rellenas con crema blanca",
+    "price": 5,
+    "thumbnail": "con foto",
+    "code": "adfg66",
+    "stock": 5
+  },
+  {
+    "id": 10,
+    "title": "oreos",
+    "description": "Galletitas rellenas con crema blanca",
+    "price": 5,
+    "thumbnail": "con foto",
+    "code": "adfg66",
+    "stock": 5
+  },
+  {
+    "id": 11,
+    "title": "macucas",
+    "description": "Galletitas rellenas con crema blanca",
+    "price": 5,
+    "thumbnail": "con foto",
+    "code": "adfg66",
+    "stock": 5
+  },
+  {
+    "id": 12,
+    "title": "oreos",
+    "description": "Galletitas rellenas con crema blanca",
+    "price": 5,
+    "thumbnail": "con foto",
+    "code": "adfg66",
+    "stock": 5
+  },
+  {
+    "id": 13,
+    "title": "macucas",
+    "description": "Galletitas rellenas con crema blanca",
+    "price": 5,
+    "thumbnail": "con foto",
+    "code": "adfg66",
+    "stock": 5
+  },
+  {
+    "id": 14,
+    "title": "oreos",
+    "description": "Galletitas rellenas con crema blanca",
+    "price": 5,
+    "thumbnail": "con foto",
+    "code": "adfg66",
+    "stock": 5
+  },
+  {
+    "id": 15,
+    "title": "macucas",
+    "description": "Galletitas rellenas con crema blanca",
+    "price": 5,
+    "thumbnail": "con foto",
+    "code": "adfg66",
+    "stock": 5
+  },
+  {
+    "id": 16,
+    "title": "oreos",
+    "description": "Galletitas rellenas con crema blanca",
+    "price": 5,
+    "thumbnail": "con foto",
+    "code": "adfg66",
+    "stock": 5
+  },
+  {
+    "id": 17,
+    "title": "macucas",
+    "description": "Galletitas rellenas con crema blanca",
+    "price": 5,
+    "thumbnail": "con foto",
+    "code": "adfg66",
+    "stock": 5
+  }
+]
