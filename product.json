@@ -142,5 +142,23 @@
     "thumbnail": "con foto",
     "code": "adfg66",
     "stock": 5
+  },
+  {
+    "id": 18,
+    "title": "oreos",
+    "description": "Galletitas rellenas con crema blanca",
+    "price": 5,
+    "thumbnail": "con foto",
+    "code": "adfg66",
+    "stock": 5
+  },
+  {
+    "id": 19,
+    "title": "macucas",
+    "description": "Galletitas rellenas con crema blanca",
+    "price": 5,
+    "thumbnail": "con foto",
+    "code": "adfg66",
+    "stock": 5
   }
 ]

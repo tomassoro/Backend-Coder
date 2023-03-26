@@ -1,7 +1,5 @@
 //Desafio entregable: Clases con ECMAScript y ECMAScript avanzado
 
-const { compileFunction } = require('vm');
-
 const fs = require('fs').promises
 
 class ProductManager{
