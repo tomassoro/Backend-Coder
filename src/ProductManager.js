@@ -1,6 +1,6 @@
 //Desafio entregable: Clases con ECMAScript y ECMAScript avanzado
 
-const fs = require('fs').promises
+import fs from 'fs/promises'
 
 class ProductManager{
 
@@ -84,35 +84,35 @@ class ProductManager{
             throw new Error('el id no fue encontrado')
         }
     }
-
 }
-const pm = new ProductManager()
-const oreos = {
-    title:"oreos",
-    description:"Galletitas rellenas con crema blanca",
-    price: 5,
-    thumbnail:"con foto",
-    code:"adfg66",
-    stock:5
-}
-const macucas = {
-    title:"macucas",
-    description:"Galletitas rellenas con crema blanca",
-    price: 5,
-    thumbnail:"con foto",
-    code:"adfg66",
-    stock:5
-}
-const main = async() => {
-    console.log(await pm.getProduct())
-    console.log(await pm.addProduct(oreos))
-    console.log(await pm.addProduct(macucas))
-    console.log(await pm.getProductById(1))
-    console.log(await pm.deleteProduct(2))
-    console.log(await pm.getProduct())
-    console.log(await pm.updateProduct(1,{...oreos, code:"carpincho"}))
-    console.log(await pm.getProduct())
+export default ProductManager;  
+// }
+// const pm = new ProductManager()
+// const oreos = {
+//     title:"oreos",
+//     description:"Galletitas rellenas con crema blanca",
+//     price: 5,
+//     thumbnail:"con foto",
+//     code:"adfg66",
+//     stock:5
+// }
+// const macucas = {
+//     title:"macucas",
+//     description:"Galletitas rellenas con crema blanca",
+//     price: 5,
+//     thumbnail:"con foto",
+//     code:"adfg66",
+//     stock:5
+// }
+// const main = async() => {
+//     console.log(await pm.getProduct())
+//     console.log(await pm.addProduct(oreos))
+//     console.log(await pm.addProduct(macucas))
+//     console.log(await pm.getProductById(1))
+//     console.log(await pm.deleteProduct(2))
+//     console.log(await pm.getProduct())
+//     console.log(await pm.updateProduct(1,{...oreos, code:"carpincho"}))
+//     console.log(await pm.getProduct())
     
-};
-main()
-
+// };
+// main()

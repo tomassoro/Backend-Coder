@@ -1,7 +1,7 @@
 {
   "name": "desafio-entregable",
   "version": "1.0.0",
-  "description": "",
+  "description": "DESAFIO nº3\r CONSIGNA\r Desarrollar un servidor basado en express donde podamos hacer consultas a nuestro archivo de productos.\r ASPECTOS A INCLUIR\r Se deberá utilizar la clase ProductManager que actualmente utilizamos con persistencia de archivos.\r Desarrollar un servidor express que, en su archivo app.js importe al archivo de ProductManager que actualmente tenemos.\r El servidor debe contar con los siguientes endpoints:\r ruta ‘/products’, la cual debe leer el archivo de productos y devolverlos dentro de un objeto. Agregar el soporte para recibir por query param el valor ?limit= el cual recibirá un límite de resultados. Si no se recibe query de límite, se devolverán todos los productos. Si se recibe un límite, sólo devolver el número de productos solicitados.\r ruta ‘/products/:pid’, la cual debe recibir por req.params el pid (product Id), y devolver sólo el producto solicitado, en lugar de todos los productos.\r TESTS\r Se instalarán las dependencias a partir del comando npm install\r Se echará a andar el servidor\r Se revisará que el archivo ya cuente con almenos 10 productos ya creados.\r Se mandará a llamar desde el navegador a la url http://localhost:puerto/products sin query, eso debe devolver todos los 10 productos.\r Se mandará a llamar desde el navegador a la url http://localhost:puerto/products?limit=5 , eso debe devolver sólo los primeros 5 de los 10 productos.\r Se mandará a llamar desde el navegador a la url http://localhost:puerto/products/2, eso debe devolver sólo el producto con id=2. -Se mandará a llamar desde el navegador a la url http://localhost:puerto/products/34123123, al no existir el id del producto, debe devolver un objeto con un error indicando que el producto no existe.",
   "main": "script.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/tomassoro/Backend-Coder/issues"
   },
-  "homepage": "https://github.com/tomassoro/Backend-Coder#readme"
+  "homepage": "https://github.com/tomassoro/Backend-Coder#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
 }

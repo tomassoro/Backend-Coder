@@ -1,0 +1,93 @@
+[
+  {
+    "id": 1,
+    "title": "oreos",
+    "description": "Galletitas rellenas con crema blanca",
+    "price": 5,
+    "thumbnail": "con foto",
+    "code": "adfg66",
+    "stock": 5
+  },
+  {
+    "id": 2,
+    "title": "Macucas",
+    "description": "Galletitas parecidas a las oreos rellenas con crema blanca",
+    "price": 15,
+    "thumbnail": "con foto",
+    "code": "adfg88",
+    "stock": 5
+  },
+  {
+    "id": 3,
+    "title": "Pepitos",
+    "description": "Galletitas chips de choco",
+    "price": 5,
+    "thumbnail": "con foto",
+    "code": "adfg76",
+    "stock": 5
+  },
+  {
+    "id": 4,
+    "title": "Sonrisas",
+    "description": "La galletita re loca",
+    "price": 5,
+    "thumbnail": "con foto",
+    "code": "adfg16",
+    "stock": 5
+  },
+  {
+    "id": 5,
+    "title": "Melbas",
+    "description": "Las que nadie quiere",
+    "price": 5,
+    "thumbnail": "con foto",
+    "code": "adfg26",
+    "stock": 5
+  },
+  {
+    "id": 6,
+    "title": "Surtidas",
+    "description": "Hay algunas q zafan",
+    "price": 5,
+    "thumbnail": "con foto",
+    "code": "adfg56",
+    "stock": 5
+  },
+  {
+    "id": 7,
+    "title": "Toddys",
+    "description": "No existiiisss",
+    "price": 5,
+    "thumbnail": "con foto",
+    "code": "adfg79",
+    "stock": 5
+  },
+  {
+    "id": 8,
+    "title": "Donuts",
+    "description": "LA BOMBA",
+    "price": 5,
+    "thumbnail": "con foto",
+    "code": "adfg66",
+    "stock": 5
+  },
+  {
+    "id": 9,
+    "title": "Galletitas de arroz",
+    "description": "Las que te daba la abuela",
+    "price": 5,
+    "thumbnail": "con foto",
+    "code": "adfg66",
+    "stock": 5
+  },
+  {
+    "id": 10,
+    "title": "Cerealitas",
+    "description": "Nunca vienen mal",
+    "price": 5,
+    "thumbnail": "con foto",
+    "code": "adfg66",
+    "stock": 5
+  }
+
+]
